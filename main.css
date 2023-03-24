@@ -1,0 +1,430 @@
+/* .left-menu, .main-menu, table {
+    background: none !important;
+    background-color: #44475a !important;
+}
+
+span, a {
+    color: #bd93f9 !important;
+}
+
+.over-menu .center {
+    background: none !important;
+    background-color: #282a36 !important;
+    border: 1px solid #ff79c6;
+    border-radius: 5px;
+}
+.over-menu .left, .over-menu .right {
+    background: none !important;
+}
+
+.out-menu {
+    padding: 0 8px !important;
+    margin: 0 !important;
+}
+
+.left-menu .out-menu {
+    background-color: #282a36 !important;
+}
+.right-menu {
+    background-color: #44475a !important;
+}
+tr td {
+    background-color: #1d1628 !important;
+}
+td {
+    color: #ff79c6 !important;
+}
+
+select, input {
+    background-color: #ff79c6 !important;
+    color: #282a36 !important;
+}
+.title table {
+    width: 100% !important;
+} */
+
+/*! CODE PTIT */
+
+.wrapper {
+    background-color: #282a36 !important;
+    color: #bd93f9 !important;
+}
+.status, .nav, .historywork {
+    background-color: #44475a !important;
+    border-color: #bd93f9 !important;
+    color: #bd93f9 !important;
+}
+.nav__menu__item a, .ques__nav_title, .status__nav {
+    color: #bd93f9 !important;
+}
+
+@media only screen and (min-width: 767px){
+    .ques__nav__title, .status__nav {
+        color: #bd93f9 !important;
+    }
+}
+
+.text--ac {
+    color: #50fa7b !important;
+}
+.text--blue {
+    color: #8be9fd !important;
+}
+
+.bg--10th .ques__table__icon {
+    background-color: #50fa7b !important;
+}
+.bg--10th {
+    box-shadow: -20px 0 18px -15px #50fa7b; 
+    -moz-box-shadow: -20px 0 18px -15px #50fa7b; 
+    -webkit-box-shadow: -20px 0 18px -15px #50fa7b;
+}
+
+.bg--50th .ques__table__icon {
+    background-color: #ff5555 !important;
+}
+.bg--50th {
+    box-shadow: -20px 0 18px -15px #ff5555; 
+    -moz-box-shadow: -20px 0 18px -15px #ff5555; 
+    -webkit-box-shadow: -20px 0 18px -15px #ff5555;
+}
+
+.ques__table__icon {
+    margin: 10px !important;
+}
+
+.bg--10th, .bg--50th, .bg--20th {
+    border-right: 1px solid #bd93f9 !important;;
+    background-color: #282a36 !important;
+}
+
+.ques__nav__form, .custom__select, .select__subject, .select-items {
+    background-color: #bd93f9 !important;
+    border-color: #f8f8f2 !important;
+    color: #f8f8f2 !important;
+}
+.ques__nav__form input {
+    color: #f8f8f2 !important;
+}
+
+.ques__table tbody tr {
+    border-left: 1px solid #bd93f9 !important;
+    border-right: 1px solid #bd93f9 !important;
+}
+.ques__table tr td {
+    border-bottom: solid 1.6px #bd93f9 !important;
+}
+.ques__table__head, .status__table__head, .rank__table__head {
+    background-color: #bd93f9 !important;
+    color: #f8f8f2 !important;
+}
+.wrapper a {
+    color: #ff79c6 !important;
+}
+
+.chat__icon__wrapper {
+    color: #bd93f9 !important;
+}
+
+.pagination .page-link {
+    background-color: #282a36 !important;
+    border-color: #bd93f9 !important;
+    color: #bd93f9 !important;
+}
+
+
+/* TRANG THAI */
+.status__table {
+    border-color: #bd93f9 !important;
+} 
+.status__table tr, .rank__table tr {
+    border-right: 1px solid #bd93f9 !important;;
+    border-left: 1px solid #bd93f9 !important;;
+    border-color: #bd93f9 !important;
+}
+
+@media only screen and (min-width: 768px){
+    .status__table tr td {
+        border-bottom:  1.6px solid #bd93f9 !important;
+    }
+    .status__nav p, .historywork__nav p, .admin__status__nav__title {
+        font-size: 19.2px;
+        margin-bottom: 24px !important;
+        color: #bd93f9 !important;
+    }
+}
+
+
+/* RANKING */
+@media only screen and (min-width: 768px){
+    .ranking__wrapper {
+        background-color: #44475a !important;
+        border-color: #bd93f9 !important;
+        color: #bd93f9 !important;
+    }
+    .rank__top__side, .rank__top__mid {
+        background-color: #282a36 !important;
+        border: 1px solid #bd93f9 !important;
+        color: #bd93f9 !important;
+    } 
+    .rank__top__info__name, .rank__top__info__class, .rank__top__info__sub, .rank__top__result__des {
+        color: #bd93f9 !important;
+    }
+    .rank__top__mid{
+        box-shadow: #bd93f9 0px 0px 30px 10px !important;
+        border-top: 4.8px solid #bd93f9 !important;
+        border-top: none;
+    }
+    .rank__top__side{
+        box-shadow: #bd93f9 0px 0px 30px 7px !important;
+    }
+
+    .rank__top__result__number text--ac {
+        color: #bd93f9 !important;
+    }
+} 
+
+
+/*! The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 5px;
+}
+
+  /* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #282a36;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #bd93f9;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #bd93f9;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/*! HUONG DAN */
+@media only screen and (min-width: 768px){
+    .setting__menu__title, .text--gray, .setting__main__guide__title {
+        color:#bd93f9 !important;
+    }
+    figcaption {
+        color: #ff79c6 !important;
+    }
+    .profile {
+        border-top: 1px solid #282a36;
+    }
+    .profile, .user, .main__user {
+        background-color: #44475a !important;
+        color: #bd93f9 !important;
+    }
+}
+
+/* BAI TAP */
+@media only screen and (min-width: 768px){
+
+    #submit {
+        border: 1px solid #bd93f9 !important;
+        background-color: #44475a !important;
+    }
+    .submit__des {
+        background-color: #282a36 !important;
+        color: #bd93f9 !important;
+    }
+    .submit__nav {
+        padding-bottom: 10px;
+    }
+
+    .select__lang, .fileInput__value, .fileInput__browser, .submit__pad__btn {
+        background-color: #bd93f9 !important;
+        border-color: #f8f8f2 !important;
+        color: #f8f8f2 !important;
+    }
+    .submit__req p, .submit__pad__nav p, .submit__comm__nav p {
+        color: #ff79c6 !important;
+    }
+    .submit__pad__nav__input p, .select-selected, .select-items div  {
+        color: #f8f8f2 !important;
+    }
+}
+@media only screen and (min-width: 766px) {
+    .select__lang, .fileInput__value, .fileInput__browser {
+        background-color: #bd93f9 !important;
+        border-color: #f8f8f2 !important;
+        color: #f8f8f2 !important;
+    }
+    #submit__comm__textarea, .submit__comm__list {
+        background-color: #282a36 !important;
+        color: #bd93f9 !important;
+    }
+    .submit__comm__list__item__avt img {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 50% !important;
+        border: 2px solid #bd93f9 !important;
+    }
+    .submit__comm__stick {
+        background-color: #bd93f9 !important;
+    }
+    .submit__comm__list__item__content {
+        border-bottom: 1px solid #bd93f9 !important;
+    }
+    .submit__comm__list__item__content__nav__time {
+        color: #ff79c6 !important;
+    }
+}
+
+/* SUBMIT  */
+@media only screen and (min-width: 766px) {
+    .ace-content {
+        background-color: #f8f8f2 !important;
+    }
+    .ace-tm .ace_gutter {
+        background: #282a36 !important;
+        color: #bd93f9 !important;
+    }
+    .submit {
+        background-color: #44475a !important;
+        padding-bottom: 20px !important;
+    }
+    #editorsh0-dy {
+        height: 100%;
+    }
+    .main--fluid .submit,  {
+        height: 100vh !important;
+    }
+}
+
+/* PROFILE */
+@media only screen and (min-width: 766px) {
+    .nav__profile__menu ul::before {
+        border-bottom-color: #282a36 !important;        
+    }
+    .nav__profile__menu .profile__dropdown {
+        background-color: #282a36 !important;
+        color: #bd93f9 !important;
+    }
+    .nav__profile__menu__name, .nav__profile__menu__code, .nav__profile__menu li, .profile__name, 
+    .setting__main__label, .setting__main__sub, .main__user__content__class__nav {
+        color: #bd93f9 !important;
+    }
+    .main__user__history__table {
+        border-color: solid 1px #bd93f9 !important;
+        background-color: #282a36 !important;
+    }
+    .main__user__content{
+        border-bottom: solid 1px #bd93f9 !important;
+    }
+    .nav-link.active, .enrollclass__table__head, .main__user__contest__table__head {
+        background-color: #bd93f9 !important;
+        color: #f8f8f2 !important;
+        border: none !important;
+    }
+    .profile__edit {
+        background-color: #44475a !important;
+        border: 1px solid #bd93f9 !important;
+    }
+    .profile__item span, .main__user__content__class__nav {
+        color: #f8f8f2 !important;
+    }
+
+    .setting__main__acc__title, .setting__main__info__title {
+        color: #ff79c6 !important;
+        font-size: 20px !important;
+        border-bottom: 1px solid #ff79c6 !important;
+        padding-bottom: 10px !important;
+    }
+    
+    .setting__main__info input, .setting__main__info select, .setting__main__info textarea {
+        background-color: #44475a !important;
+        color: #f8f8f2 !important;
+    }
+    .setting__main__update__btn {
+        background-color: #ff79c6 !important;
+    }
+
+    .nav-tabs svg {
+        display: none !important;
+    }
+    .nav-tabs a.active:not(:nth-child(2)) svg {
+        stroke: #f8f8f2 !important;
+    }
+    .nav-tabs a:nth-child(2) svg {
+        fill: #ff79c6;
+    }
+    .dropdown__wrapper button {
+        color: #bd93f9 !important;
+    }
+
+    .profile__avt img {
+        height: auto !important;
+    }
+
+    .profile__avt {
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        object-fit: cover !important;
+        
+        border-radius: 60% 40% 35% 70%/ 60% 30% 65% 40% !important;
+        justify-content: center;
+        height: 200px !important;
+        width: 200px !important;
+        border: 2px solid #bd93f9 !important;
+        box-shadow: #bd93f9 0px 0px 20px 10px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .rank__top__avt {
+        display: flex !important;
+        align-content: center !important;
+        flex-wrap: wrap !important;
+        margin-bottom: 0 !important;
+    }
+}
