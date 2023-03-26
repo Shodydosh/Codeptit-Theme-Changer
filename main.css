@@ -121,9 +121,14 @@ select, input {
 #themeChanger .ques__table__head, #themeChanger .status__table__head, #themeChanger .rank__table__head {
     background-color: #bd93f9 !important;
     color: #f8f8f2 !important;
+    border: 1px solid #bd93f9 !important;
 }
 #themeChanger .wrapper a {
-    color: #ff79c6 !important;
+    color: #f8f8f2 !important;
+}
+#themeChanger .nav .active {
+    background-color: #bd93f9 !important;
+    border: 1px solid #bd93f9 !important;
 }
 
 #themeChanger .chat__icon__wrapper {
@@ -137,7 +142,7 @@ select, input {
 }
 
 
-/* TRANG THAI */
+/*! TRANG THAI */
 #themeChanger .status__table {
     border-color: #bd93f9 !important;
 } 
@@ -145,6 +150,7 @@ select, input {
     border-right: 1px solid #bd93f9 !important;;
     border-left: 1px solid #bd93f9 !important;;
     border-color: #bd93f9 !important;
+    background-color: #282a36 !important;
 }
 
 @media only screen and (min-width: 768px){
@@ -159,7 +165,7 @@ select, input {
 }
 
 
-/* RANKING */
+/*! RANKING */
 @media only screen and (min-width: 768px){
     #themeChanger .ranking__wrapper {
         background-color: #44475a !important;
@@ -175,12 +181,12 @@ select, input {
         color: #bd93f9 !important;
     }
     #themeChanger .rank__top__mid{
-        box-shadow: #bd93f9 0px 0px 30px 10px !important;
+        box-shadow: #bd93f9 0px 0px 30px 4px !important;
         border-top: 4.8px solid #bd93f9 !important;
         border-top: none;
     }
     #themeChanger .rank__top__side{
-        box-shadow: #bd93f9 0px 0px 30px 7px !important;
+        box-shadow: #bd93f9 0px 0px 30px 3px !important;
     }
 
     #themeChanger .rank__top__result__number text--ac {
@@ -208,7 +214,7 @@ select, input {
     }
 }
 
-/* BAI TAP */
+/*! BAI TAP */
 @media only screen and (min-width: 768px){
 
     #themeChanger #submit {
@@ -260,6 +266,28 @@ select, input {
     #themeChanger .submit__comm__list__item__content__nav__time {
         color: #ff79c6 !important;
     }
+    #themeChanger .bestsol {
+        background-color: #44475a !important;
+        border: 1px solid #bd93f9 !important;
+    }
+    #themeChanger .bestsol__nav p {
+        color: #bd93f9 !important;
+    }
+    #themeChanger .bestsol__table {
+        background-color: #282a36 !important;
+        border: 1px solid #bd93f9 !important;
+    }
+    #themeChanger .bestsol__table a {
+        color: #ff79c6 !important;
+    }
+    #themeChanger .bestsol__table tr {
+        border-color: #bd93f9 !important;
+    }
+    #themeChanger .bestsol__table__head {
+        background-color: #bd93f9 !important;
+        color: #f8f8f2 !important;
+        border: none !important;
+    }
 }
 
 /* SUBMIT  */
@@ -278,9 +306,9 @@ select, input {
     #editorsh0-dy {
         height: 100%;
     }
-    #themeChanger .main--fluid .submit  {
+    /* #themeChanger .main--fluid .submit  {
         height: 100vh !important;
-    }
+    } */
 }
 
 /* PROFILE */
@@ -297,8 +325,11 @@ select, input {
         color: #bd93f9 !important;
     }
     #themeChanger .main__user__history__table {
-        border-color: solid 1px #bd93f9 !important;
         background-color: #282a36 !important;
+        border-color: solid 1px #bd93f9 !important;
+    }
+    #themeChanger .main__user__history__table a {
+        color: #ff79c6 !important;
     }
     #themeChanger .main__user__content{
         border-bottom: solid 1px #bd93f9 !important;
@@ -368,6 +399,34 @@ select, input {
         align-content: center !important;
         flex-wrap: wrap !important;
         margin-bottom: 0 !important;
+    }
+
+    #themeChanger .issue-guide {
+        background-color: #282a36 !important;
+        border: 1px solid #bd93f9 !important;
+        border-radius: 4px !important;
+    }
+
+    #themeChanger .chat__panel__box, #themeChanger .chat__panel__input, #themeChanger .chat__panel {
+        background-color: #282a36 !important;
+    }
+    #themeChanger .chat__panel__box__head {
+        border-bottom: 1.6px solid #bd93f9 !important;
+    }
+    #themeChanger #channel, #themeChanger .chat__message__cont, #themeChanger #rec {
+        background-color: #bd93f9 !important;
+        border-color: #f8f8f2 !important;
+        color: #f8f8f2 !important;
+    }
+    #themeChanger .chat__message__inf__actor {
+        color: #ff79c6 !important;
+    }
+    #themeChanger #msg {
+        background-color: #282a36 !important;
+        color: #f8f8f2 !important;
+    }
+    #themeChanger .chat__panel__input {
+        border-top: 1.6px solid #bd93f9 !important;
     }
 }
 
