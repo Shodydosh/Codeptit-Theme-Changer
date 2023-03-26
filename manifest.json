@@ -1,24 +1,49 @@
 {
   "name": "CodePtit Theme Changer",
+  "version": "1.0.1",
   "description": "Changes the theme of Codeptit",
-  "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["activeTab"],
-  "icons":{
-    "16": "/assets/icon-16.png",
-    "48": "/assets/icon-48.png",
-    "128": "/assets/icon-128.png"
+  "icons": {
+    "16": "/images/icon-16.png",
+    "48": "/images/icon-48.png",
+    "128": "/images/icon-128.png"
   },
   "content_scripts": [
     {
-      "matches": ["https://code.ptit.edu.vn/*", "https://codeforces.com/*"],
-      "css": ["main.css"],
-      "js": ["content.js"]
+      "all_frames": true,
+      "matches": [
+        "https://code.ptit.edu.vn/*",
+        "https://codeforces.com/*"
+      ],
+      "css": [
+        "main.scss"
+      ],
+      "js": [
+        "content.js",
+        "src/lib/jquery-3.5.1.min.js"
+      ]
     }
   ],
   "action": {
-    "default_title": "CodePtit Theme Changer",
-    "default_icon": "/assets/icon-48.png",
-    "default_popup": "popup.html"
+    "default_icon": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+    },
+    "default_popup": "src/popup/index.html"
+  },
+  "permissions": [
+    "scripting",
+    "management",
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
   }
 }
