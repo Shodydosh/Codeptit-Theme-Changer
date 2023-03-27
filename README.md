@@ -7,7 +7,7 @@
              
 ##
 
->Dù gì thì bạn cũng dành cả thanh xuân trên codeptit, tại sao không cày code với phong cách mới hơn?
+> [1.1.0]: Toggle switch inside codeptit if the extension is enable
 
 ![image](https://user-images.githubusercontent.com/87895460/227594812-46d88f20-9361-4817-93f0-a1dc492e7958.png)
 
