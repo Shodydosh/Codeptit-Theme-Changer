@@ -55,7 +55,7 @@
  
 License
 This extension is licensed under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
->Nếu thấy hay hãy cho mình xin một ⭐️ và đừng ngần ngại nhắn tin cho mình nếu có bug nhé!
+>Nếu thấy hay hãy cho mình xin một ⭐️ và đừng ngần ngại nhắn tin cho mình nếu có bug nhé!!
 
 ##
 > ⭐️ From Shodydosh
