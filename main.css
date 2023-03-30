@@ -244,7 +244,7 @@ select, input {
         border-color: #f8f8f2 !important;
         color: #f8f8f2 !important;
     }
-    #submit__comm__textarea, #themeChanger .submit__comm__list {
+    #themeChanger #submit__comm__textarea, #themeChanger .submit__comm__list {
         background-color: #282a36 !important;
         color: #bd93f9 !important;
     }
@@ -436,6 +436,30 @@ select, input {
     }
     #themeChanger .chat__panel__input {
         border-top: 1.6px solid #bd93f9 !important;
+    }
+
+    #themeChanger .filter__dropdown {
+        background-color: #282a36 !important;
+        box-shadow: #bd93f9 0px 0px 20px 10px !important;
+    }
+
+    #themeChanger .filter__dropdown::before {
+        border-bottom-color: #282a36 !important;
+    }
+    #themeChanger .filter__dropdown ul li {
+        border-bottom: 1.6px solid #bd93f9 !important;
+    }
+    #themeChanger .checkbox--block, #themeChanger .cb__label {
+        color: #bd93f9 !important;
+    }
+    #themeChanger .checkbox--red+label:before {
+        border: 1.6px solid #bd93f9 !important
+    }
+    #themeChanger .checkbox--red:checked+label:before {
+        background: #bd93f9 !important;
+    }
+    #themeChanger .filter__dropdown__btn {
+        background-color: #bd93f9 !important;
     }
 }
 
