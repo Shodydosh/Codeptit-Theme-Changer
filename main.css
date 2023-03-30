@@ -50,6 +50,8 @@ select, input {
 }
  
 #themeChanger .wrapper {
+    min-height: 100vh !important;
+    height: 100% !important;
     background-color: #282a36 !important;
     color: #bd93f9 !important;
 }
@@ -79,26 +81,30 @@ select, input {
     background-color: #50fa7b !important;
 }
 #themeChanger .bg--10th {
-    box-shadow: -20px 0 18px -15px #50fa7b; 
-    -moz-box-shadow: -20px 0 18px -15px #50fa7b; 
-    -webkit-box-shadow: -20px 0 18px -15px #50fa7b;
+    box-shadow: -20px 0 18px -15px #50fa7b !important; 
+    -moz-box-shadow: -20px 0 18px -15px #50fa7b !important; 
+    -webkit-box-shadow: -20px 0 18px -15px #50fa7b !important;
+    background-color: #282a36 !important;
 }
 
 #themeChanger .bg--50th .ques__table__icon {
     background-color: #ff5555 !important;
 }
 #themeChanger .bg--50th {
-    box-shadow: -20px 0 18px -15px #ff5555; 
-    -moz-box-shadow: -20px 0 18px -15px #ff5555; 
-    -webkit-box-shadow: -20px 0 18px -15px #ff5555;
+    box-shadow: -20px 0 18px -15px #ff5555 !important; 
+    -moz-box-shadow: -20px 0 18px -15px #ff5555 !important; 
+    -webkit-box-shadow: -20px 0 18px -15px #ff5555 !important;
+    background-color: #ff555530 !important;
+    border-left: 1.6px solid #ff5555 !important;;
+    border-right: 1.6px solid #ff5555 !important;;
 }
 
 #themeChanger .ques__table__icon {
     margin: 10px !important;
 }
 
-#themeChanger .bg--10th, #themeChanger .bg--50th, #themeChanger .bg--20th {
-    border-right: 1px solid #bd93f9 !important;;
+#themeChanger .bg--20th {
+    border-right: 1.6px solid #bd93f9 !important;;
     background-color: #282a36 !important;
 }
 
@@ -112,6 +118,9 @@ select, input {
 }
 
 #themeChanger .ques__table tbody tr {
+    box-shadow: -20px 0 18px -15px #f8f8f2; 
+    -moz-box-shadow: -20px 0 18px -15px #f8f8f2; 
+    -webkit-box-shadow: -20px 0 18px -15px #f8f8f2;
     border-left: 1px solid #bd93f9 !important;
     border-right: 1px solid #bd93f9 !important;
 }
@@ -222,6 +231,13 @@ select, input {
         background-color: #44475a !important;
     }
     #themeChanger .submit__des {
+        background-color: #282a36 !important;
+        color: #bd93f9 !important;
+    }
+    #themeChanger .submit__des tbody {
+        border-color: #bd93f9 !important;
+    }
+    #themeChanger .submit__des p, #themeChanger .submit__des span {
         background-color: #282a36 !important;
         color: #bd93f9 !important;
     }
