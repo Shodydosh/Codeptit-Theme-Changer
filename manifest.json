@@ -21,7 +21,8 @@
       "js": [
         "content.js",
         "src/lib/jquery-3.5.1.min.js"
-      ]
+      ],
+      "run_at": "document_end"
     }
   ],
   "action": {
@@ -45,5 +46,9 @@
   "background": {
     "service_worker": "background.js",
     "type": "module"
-  }
+  },
+  "web_accessible_resources": [{
+    "resources": ["src/lib/jquery-3.5.1.min.js"],
+    "matches": ["https://code.ptit.edu.vn/*"]
+  }]
 }
